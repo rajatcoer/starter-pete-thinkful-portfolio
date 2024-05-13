@@ -76,3 +76,39 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.group_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.group_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.align_right {
+  text-align: right;
+}
+
+.align_left {
+  text-align: left;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.font_description {
+  font-size: 14px;
+}
+
+header div nav {
+  text-align: left;
+  padding: 10px;
+}
